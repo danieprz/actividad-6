@@ -1,9 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Bienvenido, este programa necesita dos números para establecer su suma, resta multiplicación y división");
+Console.WriteLine("Bienvenido, este programa necesita dos números para establecer su suma, resta, multiplicación y división.");
 Console.WriteLine("Porfavor, introduzca un número");
 var primernumero = Console.ReadLine();
 int num1 = int.Parse(primernumero);
-Console.WriteLine("Porfavor, introduce otro número");
+Console.WriteLine("Porfavor, introduzca otro número");
 var segundonumero = Console.ReadLine();
 int num2 = int.Parse(segundonumero);
 Suma(num1,num2);
@@ -31,6 +31,6 @@ Division(num1,num2);
 static int Division(int dividendo, int divisor)
 {
     int resultado = dividendo / divisor;
-    Console.WriteLine("La división de  " + dividendo + " y " + divisor + " da lugar a: " + resultado);
+    Console.WriteLine("La división de " + dividendo + " y " + divisor + " da lugar a: " + resultado);
     return resultado;
 }
